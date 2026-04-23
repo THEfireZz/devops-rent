@@ -42,8 +42,8 @@ tasks.named('jacocoTestReport') {
 
 sonar {
 	properties {
-		property "sonar.projectKey", "efrei-devops-rent"
-		property "sonar.organization", "architecture-si-project"
+		property "sonar.projectKey", "architecture-si-project_devops-rent"
+		property "sonar.organization", "efrei-devops-rent"
 		property "sonar.host.url", "https://sonarcloud.io"
 		property "sonar.sources", "src/main/java"
 		property "sonar.tests", "src/test/java"
